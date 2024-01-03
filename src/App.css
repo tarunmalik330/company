@@ -804,6 +804,7 @@ html {
   :root {
     --fs-sm: 7px !important;
     --fs-4sm: 12px !important;
+    --fs-5sm: 13px !important;
     --fs-3md: 10px !important;
     --fs-8xl: 30px !important;
     --fs-8lg: 28px !important;
