@@ -470,7 +470,7 @@ html {
 }
 
 .help_card {
-  padding: 50px 23px 0 41px;
+  padding: 50px 23px 30px 41px;
   min-height: 335px;
   border-radius: 15px;
   background: #FFF;
@@ -661,6 +661,7 @@ html {
     width: 100%;
     z-index: 5;
     background-color: #57B3FE;
+    transition: .3s linear;
   }
 
   .left_0 {
@@ -757,6 +758,15 @@ html {
 }
 
 @media (max-width:767.98px) {
+  .pt_header {
+    padding-top: 50px !important;
+  }
+
+  :root {
+    --fs-8lg: 35px !important;
+    --fs-8xl: 44px !important;
+  }
+
   .mw_277 {
     max-width: 116px;
   }
@@ -767,6 +777,26 @@ html {
 
   .mw_761 {
     max-width: 179px;
+  }
+
+  .my_help {
+    margin-top: 260px !important;
+    margin-bottom: 50px !important;
+  }
+
+  .pt_process {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+
+  .py_brands {
+    padding-top: 80px !important;
+    padding-bottom: 70px !important;
+  }
+
+  .py_working {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
   }
 }
 
@@ -789,7 +819,7 @@ html {
   }
 
   .pt_header {
-    padding-top: 25px;
+    padding-top: 25px !important;
   }
 
   .card1_content {
@@ -818,23 +848,23 @@ html {
   }
 
   .my_help {
-    margin-top: 150px;
-    margin-bottom: 80px;
+    margin-top: 150px !important;
+    margin-bottom: 80px !important;
   }
 
   .pt_process {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
   }
 
   .py_brands {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
   }
 
   .py_working {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
   }
 }
 

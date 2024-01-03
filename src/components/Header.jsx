@@ -26,9 +26,9 @@ const Header = () => {
     <>
       <div id="Home" className=" bg_header">
         <Container fluid className="px_nav">
-          <div className="d-flex justify-content-between align-items-center">
+          <div className="d-flex justify-content-between align-items-center py-4">
             <div className="cursor_pointer">
-              <img src={Logo} alt="Logo" className=" w-100 mw_259 py-3" />
+              <img src={Logo} alt="Logo" className=" w-100 mw_259" />
             </div>
             <ul
               className={`${
