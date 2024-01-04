@@ -25,7 +25,7 @@ function App() {
     setTimeout(() => {
       document.body.classList.remove("body-bg")
       setScreenLoading(false);
-    }, 3000);
+    }, 2500);
   }, []);
   // -----------------------Aos-------------------------
   useEffect(() => {
