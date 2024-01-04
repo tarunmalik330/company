@@ -10,8 +10,11 @@ import Results from "../assets/images/web.p/ResultsImg.webp";
 const OurProcess = () => {
   return (
     <>
-      <div id="OurProcess" className="bg_process pt_process">
-        <Container className="custom_container">
+      <div
+        id="OurProcess"
+        className="bg_process pt_process dotted_line position-relative"
+      >
+        <Container className="custom_container position-relative z-2">
           <div className=" d-flex justify-content-center align-items-center flex-column">
             <p
               className=" text-white text-center opacity_05 lh_122 fw-bold letter_spacing8 fs_2sm mb-0 pb-3 text-uppercase"

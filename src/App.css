@@ -563,6 +563,18 @@ html {
   padding-bottom: 184px;
 }
 
+.dotted_line::after {
+  content: "";
+  position: absolute;
+  border-radius: 1px;
+  border-style: dashed;
+  border-color: #ffffff;
+  border-width: 2px;
+  left: 50%;
+  top: 33%;
+  height: 50%;
+}
+
 /* ----------------------faster-today-------------------- */
 .bg_faster {
   background-image: url("./assets/images/web.p/Bg_fastertoday.webp");
